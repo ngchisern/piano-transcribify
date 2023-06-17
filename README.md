@@ -34,3 +34,6 @@ celery -A transcription.tasks.celery worker --loglevel=info
 ```
 
 Now, you should be able to access the application at http://localhost:5173.
+
+## Acknowledgments
+Built on top of [ByteDance's Piano Transcription](https://github.com/bytedance/piano_transcription).
